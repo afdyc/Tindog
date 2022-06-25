@@ -1,0 +1,179 @@
+/*****************************TAG*******************/
+h1 {
+  margin-top: 25%;
+  margin-bottom: 10%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/*****************************CLASS*******************/
+.container-fluid {
+  padding: 3% 15% 10%;
+}
+
+.title_btn {
+  margin-top: 200px;
+}
+
+.logo {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.75rem;
+}
+
+.dog {
+  transform: rotate(20deg);
+  width: 60%;
+  position: absolute;
+  right: 20%;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .dog {
+    position: relative;
+    transform: rotate(0deg);
+    right: 5%;
+  }
+}
+
+.features-row {
+  margin: 10% auto 10%;
+}
+
+.fa-circle-check {
+  color: #DF7861;
+}
+
+.fa-circle-check:hover {
+  color: #FF4C68;
+}
+
+.fa-bullseye {
+  color: #DF7861;
+}
+
+.fa-bullseye:hover {
+  color: #FF4C68;
+}
+
+.fa-heart {
+  color: #DF7861;
+}
+
+.fa-heart:hover {
+  color: #FF4C68;
+}
+
+.features-text {
+  padding: 0 20%;
+}
+
+.testimonials-img {
+  border-style: none;
+  border-radius: 50%;
+  margin: 20px;
+  width: 15%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 10%;
+}
+
+.pricing-div {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.pricing-card {
+  padding: 5% 5%;
+}
+
+.title {
+  padding-top: 7.5px;
+}
+
+.pricing-btn {
+  border-style: none;
+  color: white;
+  border-radius: 20px;
+  margin: 5% 0;
+  width: 150px;
+  padding: 10px 0;
+}
+
+.card-header {
+  padding-top: 5%;
+}
+
+.cta-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  color: white;
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+/*****************************ID*******************/
+#title {
+  background-color: #FF4C68;
+  color: white;
+}
+
+#nav-opt {
+  font-size: 18px;
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+}
+
+#testimonials {
+  background-color: #DF7861;
+  color: white;
+  text-align: center;
+}
+
+#press {
+  background-color: #DF7861;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+#pricing {
+  text-align: center;
+  margin: 10% 0;
+}
+
+#cta {
+  background-color: #FF4C68;
+  padding: 7.5% 2.5% 7.5%;
+}
+
+#footer {
+  margin-top: 1%;
+  text-align: center;
+}
